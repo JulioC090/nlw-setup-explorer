@@ -14,7 +14,7 @@ function add() {
     return;
   }
 
-  nlwSetup.addDay("01/01");""
+  nlwSetup.addDay(today);
   alert("Adicionado com sucesso ✔");
 }
 
